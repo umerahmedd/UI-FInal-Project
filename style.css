@@ -52,16 +52,14 @@ a {
   font-weight: 600;
   cursor: pointer;
   border-bottom: 1px solid transparent;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 a:hover {
-  color: #77c698;
+  color: #ffffff;
+  background-color: #11532d;
   transition: all 0.4s ease;
-  border-bottom: 1px solid black;
-}
-
-.content-wrap {
-  flex: 1;
 }
 
 
@@ -80,7 +78,7 @@ a:hover {
   padding-left: 10vw;
   padding-right: 10vw;
   color: #1C6758;
-  width: 79vw;
+  width: 78vw;
   position: relative;
 }
 
