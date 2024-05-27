@@ -1,0 +1,8 @@
+.contact-poster{
+    background-image: url(images/contact-us.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    height: 30vh;
+}

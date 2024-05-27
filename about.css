@@ -1,0 +1,8 @@
+.about-poster{
+    background-image: url(images/our-story.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    height: 30vh;
+}
