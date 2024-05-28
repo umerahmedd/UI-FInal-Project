@@ -107,6 +107,12 @@ a:hover {
   height: 100vh;
 }
 
+.second-page-container{
+  background-image: url(images/texture-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .second-page {
   padding-top: 8vh;
   text-align: center;
@@ -116,9 +122,7 @@ a:hover {
   width: 78vw;
   position: relative;
   margin-bottom: 10vh;
-  background-image: url(images/texture-background.png);
-  background-size: cover;
-  background-position: center;
+  
 }
 
 .section-heading {
@@ -147,14 +151,6 @@ a:hover {
 
 .third-page-container{
   background-image: url(images/hydration-background.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-.trending-page{
-  position: relative;
-  background-image: url(/images/texture-background2.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -218,6 +214,14 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.block-page-container{
+  position: relative;
+  background-image: url(images/trending-page-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .block-container{
