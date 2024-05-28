@@ -152,6 +152,14 @@ a:hover {
   background-position: center;
 }
 
+.trending-page{
+  position: relative;
+  background-image: url(/images/texture-background2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
 .third-heading {
   margin-bottom: 5vh;
   width: 100%;
@@ -218,7 +226,6 @@ a:hover {
   left: 10vw;
   height: 120vh;
   text-align: center;
-  
 }
 
 .block-item{
