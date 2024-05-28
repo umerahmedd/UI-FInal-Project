@@ -144,6 +144,13 @@ a:hover {
   height: 36vw;
 }
 
+.third-page-container{
+  background-image: url(images/hydration-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
 .third-heading {
   margin-bottom: 5vh;
   width: 100%;
