@@ -1,3 +1,6 @@
+body{
+    height: 100vh;
+}
 .contact-poster{
     background-image: url(images/contact-us.png);
     background-repeat: no-repeat;
@@ -8,76 +11,96 @@
 }
 
 .contact-container {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     width: 80vw;
-    display: grid;
-    grid-template-columns: auto;
-    padding: 20px;
-  }
-  
-  h2 {
-    margin-bottom: 20px;
-    color: #2c6a4a;
-  }
-  
-  .form-section,
-  .info-section {
-    padding: 20px;
-  }
-  
-  form {
-    display: grid;
-    grid-template-columns: auto;
-  }
-  
-  input,
-  textarea {
-    margin-bottom: 15px;
+    margin: 10vh auto 0;
+    /* padding: 0 10%; */
+    box-sizing: border-box;
+    box-shadow: 3px 4px 4px 4px rgba(27, 8, 8, 0.1);
+    margin-bottom: 5vh;
+}
+
+.contact-form, .contact-info {
+    width: 35vw;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contact-form h2, .contact-info h2 {
+    color: #2e7d32;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: block;
+    width: 100%;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e7d32;
+    color: white;
     border: none;
     border-radius: 4px;
-    background-color: #2c6a4a;
-    color: #fff;
-    font-size: 16px;
     cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #24573a;
-  }
-  
-  .info {
-    margin-bottom: 20px;
-  }
-  
-  .info p {
-    margin-top: 10px;
-    color: #555;
-  }
-
-  @media (min-width: 768px) {
-    .contact-container {
-      flex-direction: row;
-    }
-    .form-section,
-    .info-section {
-      width: 50%;
-    }
-  }
-  
-  @media screen and (min-width: 1224px) {
-   body{
-    height: 100vh;
-   }
+    font-size: 1em;
 }
+
+.contact-info p {
+    margin: 0 0 20px;
+    font-size: 1em;
+    color: #333;
+}
+
+.call-email-section {
+    width:78vw;
+    margin: 10vh auto 0;
+    grid-column: span 2;
+    padding: 20px;
+    background-color: #e2f8ea;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.call-email-section h2 {
+    color: #2e7d32;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.call-email-section p {
+    margin: 0 0 20px;
+    font-size: 1em;
+    color: #333;
+}
+
+.call-email-section a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.call-email-section a:hover {
+    text-decoration: underline;
+}
+
+/* @media screen and (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        padding: 0 5%;
+        width: 70vw;
+    }
+} */
