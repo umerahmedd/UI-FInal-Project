@@ -1,6 +1,5 @@
 body {
   background: white;
-  height: 400vh;
   margin: 0;
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -181,8 +180,6 @@ a:hover {
   background-image: url(images/7.png);
 }
 
-
-
 .block-button{
   position: relative;
   width: 100%;
@@ -210,6 +207,44 @@ a:hover {
   position: absolute;
   width: 100%;
   height: 10%;
+}
+
+
+
+.about-us-pic {
+  background-image: url(images/about-us-picture.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  height: 90vh;
+}
+
+.buy-now-button{
+  position: absolute;
+  width: 20vw;
+  height: 8vh;
+  background-color: #16a085;
+  right: 8vw;
+  border-radius: 10px;
+  top: 27vh;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buy-now-button:hover{
+  background-color: #11532d;
+}
+
+.buy-now-button-text{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  top: 30%;
 }
 
 .footer {
@@ -275,4 +310,11 @@ a:hover {
 .footer-links ul li a {
   text-decoration: none;
   color: #666;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: none;
+  }
 }
