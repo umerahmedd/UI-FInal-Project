@@ -14,6 +14,7 @@
     height: 65vh;
     text-align: center;
     left: 5vw;
+    margin-bottom: 5vh;
   }
   
   .heading {
@@ -23,6 +24,7 @@
     position: relative;
     width: 100%;
     text-align: center;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
   }
   
   .bottles-container {
@@ -61,7 +63,7 @@
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     position: relative;
     width: 50vw;
     left: 25vw;
@@ -72,6 +74,7 @@
     text-align: center;
     color: #1C6758;
     margin-bottom: 20px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
   }
   
   .form-group {
