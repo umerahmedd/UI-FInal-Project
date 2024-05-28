@@ -2,8 +2,9 @@
 .water-poster{
     background-image: url(images/water-mainpage.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
+    background-position: center;
     height: 120vh;
 }
 
