@@ -80,6 +80,9 @@ a:hover {
   width: 78vw;
   position: relative;
   margin-bottom: 10vh;
+  background-image: url(images/texture-background.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .section-heading {
@@ -225,7 +228,7 @@ a:hover {
   width: 20vw;
   height: 8vh;
   background-color: #16a085;
-  right: 8vw;
+  right: 6vw;
   border-radius: 10px;
   top: 27vh;
   text-align: center;
