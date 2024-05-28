@@ -63,22 +63,21 @@ a:hover {
   transition: all 0.4s ease;
 }
 
-
-.first-page{
-    background-image: url(images/main-page.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-position: center;
-    height: 100vh;
+.first-page {
+  background-image: url(images/main-page.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 100vh;
 }
 
-.second-page{
+.second-page {
   padding-top: 8vh;
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
-  color: #1C6758;
+  color: #1c6758;
   width: 78vw;
   position: relative;
   margin-bottom: 10vh;
@@ -107,7 +106,7 @@ a:hover {
   height: 36vw;
 }
 
-.third-heading{
+.third-heading {
   margin-bottom: 5vh;
   width: 100%;
   text-align: center;
@@ -115,15 +114,102 @@ a:hover {
   color: #11532d;
   font-weight: 600;
 }
-.third-page{
-    background-image: url(images/water-ad.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    background-position: center;
-    width: 78vw;
-    height: 70vh;
-    left: 10vw;
+
+.third-page {
+  background-image: url(images/water-ad.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  background-position: center;
+  width: 78vw;
+  height: 70vh;
+  left: 10vw;
+  margin-bottom: 10vh;
+}
+
+.block-container{
+  position: relative;
+  width: 80vw;
+  left: 10vw;
+  height: 120vh;
+  text-align: center;
+}
+
+.block-item{
+  position: relative;
+  display: inline-block;
+  width: 21vw;
+  height: 55vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+
+.block-image{
+  position: relative;
+  width: 100%;
+  height: 70%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vh;
+}
+
+.block-item:nth-child(1) .block-image {
+  background-image: url(images/1.png);
+}
+
+.block-item:nth-child(2) .block-image {
+  background-image: url(images/2.png);
+}
+
+.block-item:nth-child(3) .block-image {
+  background-image: url(images/3.png);
+}
+
+.block-item:nth-child(4) .block-image {
+  background-image: url(images/4.png);
+}
+
+.block-item:nth-child(5) .block-image {
+  background-image: url(images/5.png);
+}
+
+.block-item:nth-child(6) .block-image {
+  background-image: url(images/7.png);
+}
+
+
+
+.block-button{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  background-color: #e74c3c;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+
+.block-button:hover{
+  background-color: #c0392b;
+}
+
+.button-text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 1.25rem;
+  top: 20%;
+}
+
+.image-name{
+  position: absolute;
+  width: 100%;
+  height: 10%;
 }
 
 .footer {
@@ -138,11 +224,11 @@ a:hover {
 }
 
 .footer-logo {
-    grid-column: 1 / 2; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-  }
+  grid-column: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer-logo img {
   width: 12vw;
@@ -150,9 +236,9 @@ a:hover {
 }
 
 .footer-description {
-    grid-column: 2 / 3; 
-    color: #666;
-  }
+  grid-column: 2 / 3;
+  color: #666;
+}
 
 .footer-description,
 .footer-links,
@@ -173,10 +259,10 @@ a:hover {
 }
 
 .footer-links {
-    grid-column: 3 / 4; 
-    color: #666;
-  }
-  
+  grid-column: 3 / 4;
+  color: #666;
+}
+
 .footer-links ul {
   list-style: none;
   padding: 0;
@@ -190,6 +276,3 @@ a:hover {
   text-decoration: none;
   color: #666;
 }
-
-
-
